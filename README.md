@@ -1,2 +1,2 @@
 # Wave-defence
-This is a wave defence in trying to build
+This is a wave defence game I'm trying to build
