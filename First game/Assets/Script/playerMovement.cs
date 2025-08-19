@@ -52,16 +52,16 @@ public class playerMovement : MonoBehaviour
             currentSpeed = walkingSpeed;
         }
 
-        if (characterController.isGrounded == true && Input.GetButtonDown("Jump"))
-        {
-            gravity = baseLineGravity;
-            gravity *= -jumpSpeed;
-        }
+        //if (characterController.isGrounded == true && Input.GetButtonDown("Jump"))
+        //{
+        //    gravity = baseLineGravity;
+        //    gravity *= -jumpSpeed;
+        //}
 
-        if (gravity > baseLineGravity)
-        {
-            gravity -= 2 * Time.deltaTime;
-        }
+        //if (gravity > baseLineGravity)
+        //{
+        //    gravity -= 2 * Time.deltaTime;
+        //}
 
     }
 }

@@ -391,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 1176664902}
   MainCamera: {fileID: 963194228}
-  interactionRange: 10
+  interactionRange: 100
 --- !u!1 &608700959
 GameObject:
   m_ObjectHideFlags: 0
